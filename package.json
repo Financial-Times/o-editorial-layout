@@ -1,5 +1,5 @@
 {
-    "name": "o-editorial-layout",
+    "name": "@financial-times/o-editorial-layout",
     "devDependencies": {
         "eslint": "^7.8.1",
         "origami-ci-tools": "^2.0.2",
