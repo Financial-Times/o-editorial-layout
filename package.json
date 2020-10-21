@@ -1,9 +1,21 @@
 {
-	"private": true,
-	"name": "o-editorial-layout",
-	"devDependencies": {
-		"eslint": "^7.8.1",
-		"origami-ci-tools": "^2.0.2",
-		"stylelint-config-origami-component": "^1.0.4"
-	}
+    "name": "o-editorial-layout",
+    "devDependencies": {
+        "eslint": "^7.8.1",
+        "origami-ci-tools": "^2.0.2",
+        "stylelint-config-origami-component": "^1.0.4"
+    },
+    "main": "main.js",
+    "peerDependencies": {
+        "@financial-times/o-brand": "^3.2.8",
+        "@financial-times/o-editorial-typography": "^1.0.0",
+        "@financial-times/o-quote": "^4.1.2",
+        "@financial-times/o-spacing": "^2.0.0",
+        "@financial-times/o-typography": "^6.1.0"
+    },
+    "description": "Layout for editorial content. Including margins for editorial typography.",
+    "publishConfig": {
+        "registry": "http://localhost:4873"
+    },
+    "version": "2.0.0-0"
 }
