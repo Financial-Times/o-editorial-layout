@@ -2,7 +2,15 @@
     "name": "@financial-times/o-editorial-layout",
     "version": "100.0.0-7",
     "description": "Layout for editorial content. Including margins for editorial typography.",
-    "browser": "main.js",
+    "license": "MIT",
+    "type": "module",
+    "exports": {
+        ".": {
+            "browser": "./main.js"
+        }
+    },
+    "browser": "./main.js",
+    "types": "types",
     "devDependencies": {
         "eslint": "^7.8.1",
         "origami-ci-tools": "^2.0.2",
