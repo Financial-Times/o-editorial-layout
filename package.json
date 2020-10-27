@@ -1,11 +1,13 @@
 {
     "name": "@financial-times/o-editorial-layout",
+    "version": "100.0.0-7",
+    "description": "Layout for editorial content. Including margins for editorial typography.",
+    "browser": "main.js",
     "devDependencies": {
         "eslint": "^7.8.1",
         "origami-ci-tools": "^2.0.2",
         "stylelint-config-origami-component": "^1.0.4"
     },
-    "browser": "main.js",
     "peerDependencies": {
         "@financial-times/o-brand": "^100.0.0-7",
         "@financial-times/o-editorial-typography": "^100.0.0-7",
@@ -13,9 +15,7 @@
         "@financial-times/o-spacing": "^100.0.0-7",
         "@financial-times/o-typography": "^100.0.0-7"
     },
-    "description": "Layout for editorial content. Including margins for editorial typography.",
     "publishConfig": {
         "registry": "http://localhost:4873"
-    },
-    "version": "100.0.0-7"
+    }
 }
