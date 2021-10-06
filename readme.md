@@ -1,1 +1,1 @@
-Work on this component continues in the [Origami Component System](https://github.com/Financial-Times/origami/tree/main/components/editorial-layout)
+Work on o-editorial-layout component continues as part of the [Origami Component System](https://github.com/Financial-Times/origami/tree/main/components/o-editorial-layout)
